@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A&F Uniformes | Uniformes Personalizados para Empresas e Igrejas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:#f8f9fb;
+color:#222;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+background:linear-gradient(180deg,#ffffff,#f3f6fb);
+}
+
+.badge{
+display:inline-block;
+background:#e9f7ef;
+color:#1f8f4d;
+padding:8px 16px;
+border-radius:50px;
+font-size:14px;
+font-weight:600;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:clamp(32px,5vw,58px);
+font-weight:800;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+color:#666;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:#fff;
+text-decoration:none;
+padding:16px 32px;
+border-radius:12px;
+font-weight:700;
+font-size:18px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+}
+
+.hero-image{
+margin-top:50px;
+}
+
+.hero-image img{
+width:100%;
+max-width:900px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.section{
+padding:80px 20px;
+}
+
+.section-title{
+text-align:center;
+font-size:38px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.section-subtitle{
+text-align:center;
+color:#666;
+max-width:700px;
+margin:auto;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#fff;
+padding:30px;
+border-radius:18px;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+text-align:center;
+}
+
+.card h3{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.icon{
+font-size:40px;
+}
+
+.steps{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.step{
+background:#fff;
+padding:30px;
+border-radius:18px;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.step-number{
+width:45px;
+height:45px;
+background:#25D366;
+color:#fff;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+font-weight:700;
+margin-bottom:15px;
+}
+
+.meme-section{
+background:#fff;
+text-align:center;
+}
+
+.meme-box{
+max-width:700px;
+margin:auto;
+padding:40px;
+background:#f7f7f7;
+border-radius:20px;
+}
+
+.meme-box h2{
+font-size:40px;
+font-weight:800;
+line-height:1.1;
+}
+
+.meme-box span{
+color:#d60000;
+}
+
+.cta{
+padding:100px 20px;
+text-align:center;
+background:#111827;
+color:white;
+}
+
+.cta h2{
+font-size:48px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.cta p{
+max-width:700px;
+margin:auto;
+margin-bottom:35px;
+color:#d1d5db;
+}
+
+footer{
+padding:40px 20px;
+text-align:center;
+background:#fff;
+color:#666;
+}
+
+@media(max-width:768px){
+
+.hero{
+padding:60px 15px;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.section-title{
+font-size:30px;
+}
+
+.cta h2{
+font-size:34px;
+}
+
+.meme-box h2{
+font-size:30px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="badge">
+✓ Atendimento para todo Brasil
+</div>
+
+<h1>
+Uniformes Personalizados para Empresas, Igrejas e Eventos
+</h1>
+
+<p>
+Sua equipe mais bonita, organizada e profissional.
+Produzimos camisetas, polos, moletons e bonés personalizados com a identidade da sua marca.
+</p>
+
+<a href="https://wa.me/5551992668360" class="btn">
+📲 Solicitar Orçamento
+</a>
+
+<div class="hero-image">
+<img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=1200" alt="">
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">
+Seu uniforme representa sua empresa?
+</h2>
+
+<p class="section-subtitle">
+Antes mesmo de falar com um cliente, sua equipe já transmite uma imagem.
+Uniformes novos passam profissionalismo, organização e confiança.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">🏢</div>
+<h3>Empresas</h3>
+<p>Uniformes para equipes de trabalho.</p>
+</div>
+
+<div class="card">
+<div class="icon">⛪</div>
+<h3>Igrejas</h3>
+<p>Congressos, eventos e ministérios.</p>
+</div>
+
+<div class="card">
+<div class="icon">🧢</div>
+<h3>Bonés</h3>
+<p>Personalização profissional.</p>
+</div>
+
+<div class="card">
+<div class="icon">👕</div>
+<h3>Camisetas</h3>
+<p>PV, algodão, dry fit e muito mais.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section meme-section">
+
+<div class="container">
+
+<div class="meme-box">
+
+<h2>
+Seu uniforme já pediu <span>demissão</span> e você ainda não liberou?
+</h2>
+
+<p style="margin-top:20px;font-size:18px;color:#555;">
+😂 Chegou a hora de renovar a imagem da sua equipe.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">
+Como funciona
+</h2>
+
+<div class="steps">
+
+<div class="step">
+<div class="step-number">1</div>
+<h3>Entre em contato</h3>
+<p>Nos envie sua logo ou ideia pelo WhatsApp.</p>
+</div>
+
+<div class="step">
+<div class="step-number">2</div>
+<h3>Criamos a prévia</h3>
+<p>Montamos um mockup para aprovação.</p>
+</div>
+
+<div class="step">
+<div class="step-number">3</div>
+<h3>Produção</h3>
+<p>Após aprovação iniciamos a produção.</p>
+</div>
+
+<div class="step">
+<div class="step-number">4</div>
+<h3>Entrega</h3>
+<p>Receba seus uniformes com qualidade e agilidade.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<div class="container">
+
+<h2>
+Bora renovar o uniforme da sua equipe?
+</h2>
+
+<p>
+Solicite seu orçamento sem compromisso e receba uma prévia personalizada.
+</p>
+
+<a href="https://wa.me/5551992668360" class="btn">
+💬 Chamar no WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<strong>A&F Uniformes</strong><br>
+Amor e Fé • Uniformes Personalizados
+
+</footer>
+
+</body>
+</html>
